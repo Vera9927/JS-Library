@@ -1,0 +1,21 @@
+{
+  "name": "week8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"src\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.2",
+    "gsap": "^3.12.5",
+    "lightbox2": "^2.11.4"
+  }
+}
