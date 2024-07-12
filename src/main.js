@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
   new Glide('.glide', {
     type: 'carousel',
     perView: 1,
-    autoplay: 2000, // 自动播放间隔时间，单位为毫秒 (2000ms = 2秒)
-    hoverpause: true, // 鼠标悬停时暂停自动播放
-    animationDuration: 800, // 动画持续时间，单位为毫秒 (800ms = 0.8秒)
-    animationTimingFunc: 'ease-in-out' // 动画缓动函数
+    autoplay: 2000, 
+    hoverpause: true, 
+    animationDuration: 800, 
+    animationTimingFunc: 'ease-in-out' 
   }).mount();
 
   // initial Lightbox2 

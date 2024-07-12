@@ -28,8 +28,8 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between; /* 将元素分散排列 */
-  align-items: center; /* 垂直居中对齐 */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 header h1 {
@@ -130,7 +130,7 @@ nav ul li a:hover {
 }
 
 .gallery a:hover img {
-  transform: scale(1.1); /* 放大图片内容 */
+  transform: scale(1.1); 
 }
 
 
